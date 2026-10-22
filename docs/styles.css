@@ -1,1 +1,13 @@
 /* css styles */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+h1 {
+  font-size: 16pt;
+  
+}

@@ -11,4 +11,3 @@ title: Projects
 ## Understanding popoulation growth with Leslie Matrices (MATH 357)
 
 ## Predicting Apartment Price (DATA 222)
-

@@ -2,20 +2,35 @@
 title: "Henry Heil"
 about:
   template: trestles
-  image: headshot.jpg
+  image: images/headshot.jpg
 ---
 
-Truman State University 2029 \| Statistics + Environmental Science, Math minor
+Hello! I am a Sophomore at Truman State University in Kirksville, MO. I'm currently pursuing a double major in Statistics and Environmental Science with a minor in Math. My current goals are to develop skills in math, statistics, and data science, and couple that with broader subject matter knowledge in environmental science, which intersects sustainability, ecology, earth science, and public health. I don't yet have a specific career to aim for after graduation, but I am interested in exploring research.
 
-# Resume:
+In the past year, I've had the opportunity to attend many departmental seminars/colloquia in agriculture, biology, and mathematics, and several university-wide student research symposia. I've gotten some experience in data analysis, fieldwork/experimental design, basic lab techniques, and math research/presentation preparation through group and individual projects in coursework. These experiences have made me confident in wanting more experience, and I'm searching for external REU programs for the coming summer that explore the intersections of math and ecology.
 
-# What I'm doing currently: {style="font-size: 16pt"}
+# Currently {style="font-size: 16pt"}
 
-## Third semester coursework at Truman {style="font-size: 10pt"}
+::::: row
+::: column
+## Fall 2026 coursework  {style="font-size: 10pt"}
 
-- Advanced Calculus (MATH 461)
+- Advanced Calculus \[real analysis\] (MATH 461)
 - Probability and Mathematical Statistics I (STAT 570)
 - Intro to Ecology with Lab (BIOL 301)
 - Environmental Science with Lab (ENVS 210)
 - Intermediate Seminar in Statistics (STAT 398)
 - Non-major piano lessons! (MUSI 158)
+:::
+
+::: column
+# Spring 2027 coursework (planned) {style="font-size: 10pt"}
+
+- GIS for the Natural Sciences (BIOL 327)
+- Data Mining and Multivariate Statistics (DATA 520)
+- Discrete Mathematics (MATH 347)
+- Statistical Computing (STAT 250)
+- Intro to Environmental Studies (ENVS 200)
+- Undergraduate Research \[math, individual project\] (MATH 473)
+:::
+:::::
