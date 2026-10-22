@@ -1,0 +1,21 @@
+---
+title: "Henry Heil"
+about:
+  template: trestles
+  image: headshot.jpg
+---
+
+Truman State University 2029 \| Statistics + Environmental Science, Math minor
+
+# Resume:
+
+# What I'm doing currently: {style="font-size: 16pt"}
+
+## Third semester coursework at Truman {style="font-size: 10pt"}
+
+- Advanced Calculus (MATH 461)
+- Probability and Mathematical Statistics I (STAT 570)
+- Intro to Ecology with Lab (BIOL 301)
+- Environmental Science with Lab (ENVS 210)
+- Intermediate Seminar in Statistics (STAT 398)
+- Non-major piano lessons! (MUSI 158)
