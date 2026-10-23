@@ -1,13 +1,7 @@
 ---
 title: Projects
+listing:
+  type: grid
+  contents:
+    - "projects/*.qmd"
 ---
-
-# Cool projects
-
-## Swai Certification (ENVS 210 Group Project)
-
-## Arthropod Diversity Field Lab (BIOL 301 Group Lab Project)
-
-## Understanding popoulation growth with Leslie Matrices (MATH 357)
-
-## Predicting Apartment Price (DATA 222)

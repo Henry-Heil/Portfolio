@@ -1,0 +1,25 @@
+---
+title: "The Effect of Hay Bales on Arthropod Diversity"
+author: "Luke Capps, Sydnee Gann, Henry Heil, Andrew Schroeder"
+subtitle: "Intro to Ecology with Lab"
+date: 2026-11
+about:
+  template: solana
+  image: images/arthropodDiversity.jpg
+---
+
+# Background
+
+This was a multi-week lab project in Intro to Ecology. I worked with three classmates, Sydnee Gann, Luke Capps, and Andrew Schroeder, to identify a research question relating to arthropod diversity on the Truman State University farm, gather field data, analyze it, and write a report.
+
+# Summary
+
+## Question and data collection
+
+We wanted to determine if proximity to hay bales had an effect on arthropod abundance and diversity. We sampled, using sweep-netting, transects along two sample plots near to and far from hay bales. We used iNaturalist to ID species.
+
+## Analysis
+
+Analysis conducted in Excel. We reformatted our data to conduct t-tests comparing samples and create appropriate plots. We also calculated Shannon's diversity index, H, **and the other thing, E.**
+
+# Report

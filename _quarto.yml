@@ -1,11 +1,15 @@
 project:
   type: website
+  resources:
+    - images
   output-dir: docs
 
 website:
   title: "Henry Heil"
   navbar:
     left:
+      - href: resume.qmd
+        text: Resume
       - href: projects.qmd
         text: Projects
       - href: chess.qmd
@@ -14,7 +18,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - flatly
       - brand
     css: styles.css
     toc: true

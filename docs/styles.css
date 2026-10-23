@@ -7,7 +7,17 @@
   flex: 50%;
 }
 
+iframe {
+  max-height: 90vh;
+  height: 600px;
+}
+
 h1 {
+  color: #234123;
   font-size: 16pt;
-  
+  align: center;
+}
+
+h2 {
+  font-size: 14pt;
 }

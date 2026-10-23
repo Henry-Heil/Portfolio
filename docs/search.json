@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Henry Heil",
     "section": "",
-    "text": "Hello! I am a Sophomore at Truman State University in Kirksville, MO. I’m currently pursuing a double major in Statistics and Environmental Science with a minor in Math. My current goals are to develop skills in math, statistics, and data science, and couple that with broader subject matter knowledge in environmental science, which intersects sustainability, ecology, earth science, and public health. I don’t yet have a specific career to aim for after graduation, but I am interested in exploring research.\nIn the past year, I’ve had the opportunity to attend many departmental seminars/colloquia in agriculture, biology, and mathematics, and several university-wide student research symposia. I’ve gotten some experience in data analysis, fieldwork/experimental design, basic lab techniques, and math research/presentation preparation through group and individual projects in coursework. These experiences have made me confident in wanting more experience, and I’m searching for external REU programs for the coming summer that explore the intersections of math and ecology."
+    "text": "Hello! I am a Sophomore at Truman State University in Kirksville, MO. I’m currently pursuing a double major in Statistics and Environmental Science with a minor in Math. My current goals are to develop skills in math, statistics, and data science, and couple that with broader subject matter knowledge in environmental science, which intersects sustainability, ecology, earth science, and public health. I don’t yet have a specific career to aim for after graduation, but I am interested in exploring research.\nIn the past year, I’ve had the opportunity to attend many departmental seminars/colloquia in agriculture, biology, and mathematics, and several university-wide student research symposia. I’ve gotten some experience in data analysis, fieldwork/experimental design, basic wet lab techniques, and math research/presentation preparation through group and individual projects in coursework. These experiences have made me confident in wanting more experience, and I’m searching for external REU programs for the coming summer that explore the intersections of math and ecology."
   },
   {
     "objectID": "index.html#third-semester-coursework-at-truman",
@@ -40,5 +40,75 @@
     "title": "Henry Heil",
     "section": "Fall 2026 coursework",
     "text": "Fall 2026 coursework\n\nAdvanced Calculus [real analysis] (MATH 461)\nProbability and Mathematical Statistics I (STAT 570)\nIntro to Ecology with Lab (BIOL 301)\nEnvironmental Science with Lab (ENVS 210)\nIntermediate Seminar in Statistics (STAT 398)\nNon-major piano lessons! (MUSI 158)"
+  },
+  {
+    "objectID": "index.html#spring-2027-coursework-planned",
+    "href": "index.html#spring-2027-coursework-planned",
+    "title": "Henry Heil",
+    "section": "Spring 2027 coursework (planned)",
+    "text": "Spring 2027 coursework (planned)\n\nGIS for the Natural Sciences (BIOL 327)\nData Mining and Multivariate Statistics (DATA 520)\nDiscrete Mathematics (MATH 347)\nStatistical Computing (STAT 250)\nIntro to Environmental Studies (ENVS 200)\nUndergraduate Research [math, individual project] (MATH 473)"
+  },
+  {
+    "objectID": "footer.html",
+    "href": "footer.html",
+    "title": "footer",
+    "section": "",
+    "text": "Hello world"
+  },
+  {
+    "objectID": "BIOL301_arthropodDiversity.html",
+    "href": "BIOL301_arthropodDiversity.html",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "",
+    "text": "This was a multi-week lab project in Intro to Ecology. I worked with three classmates, Sydnee Gann, Luke Capps, and Andrew Schroeder, to identify a research question relating to arthropod diversity on the Truman State University farm, gather field data, analyze it, and write a report."
+  },
+  {
+    "objectID": "BIOL301_arthropodDiversity.html#question-and-data-collection",
+    "href": "BIOL301_arthropodDiversity.html#question-and-data-collection",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "Question and data collection",
+    "text": "Question and data collection\nWe wanted to determine if proximity to hay bales had an effect on arthropod abundance and diversity. We sampled, using sweep-netting, transects along two sample plots near to and far from hay bales. We used iNaturalist to ID species."
+  },
+  {
+    "objectID": "BIOL301_arthropodDiversity.html#analysis",
+    "href": "BIOL301_arthropodDiversity.html#analysis",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "Analysis",
+    "text": "Analysis\nAnalysis conducted in Excel. We reformatted our data to conduct t-tests comparing samples and create appropriate plots. We also calculated Shannon’s diversity index, H, and the other thing, E."
+  },
+  {
+    "objectID": "projects/BIOL301_arthropodDiversity.html",
+    "href": "projects/BIOL301_arthropodDiversity.html",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "",
+    "text": "This was a multi-week lab project in Intro to Ecology. I worked with three classmates, Sydnee Gann, Luke Capps, and Andrew Schroeder, to identify a research question relating to arthropod diversity on the Truman State University farm, gather field data, analyze it, and write a report."
+  },
+  {
+    "objectID": "projects/BIOL301_arthropodDiversity.html#question-and-data-collection",
+    "href": "projects/BIOL301_arthropodDiversity.html#question-and-data-collection",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "Question and data collection",
+    "text": "Question and data collection\nWe wanted to determine if proximity to hay bales had an effect on arthropod abundance and diversity. We sampled, using sweep-netting, transects along two sample plots near to and far from hay bales. We used iNaturalist to ID species."
+  },
+  {
+    "objectID": "projects/BIOL301_arthropodDiversity.html#analysis",
+    "href": "projects/BIOL301_arthropodDiversity.html#analysis",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "Analysis",
+    "text": "Analysis\nAnalysis conducted in Excel. We reformatted our data to conduct t-tests comparing samples and create appropriate plots. We also calculated Shannon’s diversity index, H, and the other thing, E."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The Effect of Hay Bales on Arthropod Diversity\n\n\n\n\n\n\nLuke Capps, Sydnee Gann, Henry Heil, Andrew Schroeder\n\n\nNov 1, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Resume, current Oct 23, 2026\n\n\n\nCirriculum Vitae, current Oct 23, 2026"
   }
 ]

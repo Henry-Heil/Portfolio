@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -42,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +72,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -111,20 +171,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#cool-projects" id="toc-cool-projects" class="nav-link active" data-scroll-target="#cool-projects">Cool projects</a>
-  <ul class="collapse">
-  <li><a href="#swai-certification-envs-210-group-project" id="toc-swai-certification-envs-210-group-project" class="nav-link" data-scroll-target="#swai-certification-envs-210-group-project">Swai Certification (ENVS 210 Group Project)</a></li>
-  <li><a href="#arthropod-diversity-field-lab-biol-301-group-lab-project" id="toc-arthropod-diversity-field-lab-biol-301-group-lab-project" class="nav-link" data-scroll-target="#arthropod-diversity-field-lab-biol-301-group-lab-project">Arthropod Diversity Field Lab (BIOL 301 Group Lab Project)</a></li>
-  <li><a href="#understanding-popoulation-growth-with-leslie-matrices-math-357" id="toc-understanding-popoulation-growth-with-leslie-matrices-math-357" class="nav-link" data-scroll-target="#understanding-popoulation-growth-with-leslie-matrices-math-357">Understanding popoulation growth with Leslie Matrices (MATH 357)</a></li>
-  <li><a href="#predicting-apartment-price-data-222" id="toc-predicting-apartment-price-data-222" class="nav-link" data-scroll-target="#predicting-apartment-price-data-222">Predicting Apartment Price (DATA 222)</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -148,25 +196,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="cool-projects" class="level1">
-<h1>Cool projects</h1>
-<section id="swai-certification-envs-210-group-project" class="level2">
-<h2 class="anchored" data-anchor-id="swai-certification-envs-210-group-project">Swai Certification (ENVS 210 Group Project)</h2>
-</section>
-<section id="arthropod-diversity-field-lab-biol-301-group-lab-project" class="level2">
-<h2 class="anchored" data-anchor-id="arthropod-diversity-field-lab-biol-301-group-lab-project">Arthropod Diversity Field Lab (BIOL 301 Group Lab Project)</h2>
-</section>
-<section id="understanding-popoulation-growth-with-leslie-matrices-math-357" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-popoulation-growth-with-leslie-matrices-math-357">Understanding popoulation growth with Leslie Matrices (MATH 357)</h2>
-</section>
-<section id="predicting-apartment-price-data-222" class="level2">
-<h2 class="anchored" data-anchor-id="predicting-apartment-price-data-222">Predicting Apartment Price (DATA 222)</h2>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1793509200000" data-listing-file-modified-sort="1792736356403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
+<a href="./projects/BIOL301_arthropodDiversity.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Effect of Hay Bales on Arthropod Diversity
+</h5>
+<div class="card-text listing-description delink">
+This was a multi-week lab project in Intro to Ecology. I worked with three classmates, Sydnee Gann, Luke Capps, and Andrew Schroeder, to identify a research question…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Luke Capps, Sydnee Gann, Henry Heil, Andrew Schroeder
+</div>
+<div class="listing-date">
+Nov 1, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

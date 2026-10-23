@@ -1,0 +1,12 @@
+---
+title: "Resume"
+title-block-style: none
+---
+
+# Resume, current Oct 23, 2026
+
+```{=html}
+<iframe src="images/resume.pdf" width="100%" height=90vh></iframe>
+```
+
+# Cirriculum Vitae, current Oct 23, 2026
