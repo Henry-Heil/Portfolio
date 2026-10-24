@@ -12,8 +12,6 @@ website:
         text: Resume
       - href: projects.qmd
         text: Projects
-      - href: chess.qmd
-        text: Chess
 
 format:
   html:

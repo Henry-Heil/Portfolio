@@ -8,5 +8,3 @@ title-block-style: none
 ```{=html}
 <iframe src="images/resume.pdf" width="100%" height=90vh></iframe>
 ```
-
-# Cirriculum Vitae, current Oct 23, 2026

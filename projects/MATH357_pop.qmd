@@ -1,0 +1,13 @@
+---
+title: "Leslie Matrix Research Project"
+date: "April 14, 2026"
+image: MATH357_pop.jpg
+---
+
+# Background
+
+This was an individual project in my Linear Algebra course. I took a few weeks to research a application of linear algebra I found interesting and create a corresponding product to present to the professor. I chose to explore Leslie Matrices, objects used in modeling population growth, and create a slideshow presentation. It was a rewarding topic, as it meshes nicely with biology courses I took at the time and since. I also got to learn how to make slides from scratch with Beamer, and presented them to my professor in a short meeting.
+
+```{=html}
+<iframe src="PopGrowth_2026-04-14_HH.pdf" width="100%" height=90vh></iframe>
+```

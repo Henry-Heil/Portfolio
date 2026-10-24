@@ -1,0 +1,13 @@
+---
+title: "Apartment Prices Across The U.S."
+subtitle: Fundamentals of Data Science Group Project
+author: Henry Heil, Tessa Kremer, Taylor Kunkel, Jude Thomason
+listing:
+  type: table
+  contents:
+    - "DATA222_apt/*.pdf"
+---
+
+# Background info
+
+Hello world. In this project we said hello to the world.

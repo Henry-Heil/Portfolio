@@ -2,7 +2,15 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/BIOL301_arthropodDiversity.html"
+      "/projects/MATH357_pop.html"
     ]
+  },
+  {
+    "listing": "/projects/DATA222_apt/DATA222_apt.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/DATA222_apt.html",
+    "items": []
   }
 ]
