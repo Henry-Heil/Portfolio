@@ -131,5 +131,33 @@
     "title": "Leslie Matrix Research Project",
     "section": "",
     "text": "Background\nThis was an individual project in my Linear Algebra course. I took a few weeks to research a application of linear algebra I found interesting and create a corresponding product to present to the professor. I chose to explore Leslie Matrices, objects used in modeling population growth, and create a slideshow presentation. It was a rewarding topic, as it meshes nicely with biology courses I took at the time and since. I also got to learn how to make slides from scratch with Beamer, and presented them to my professor in a short meeting."
+  },
+  {
+    "objectID": "projects/drafts/BIOL301_arthropodDiversity.html",
+    "href": "projects/drafts/BIOL301_arthropodDiversity.html",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "",
+    "text": "This was a multi-week lab project in Intro to Ecology. I worked with three classmates, Sydnee Gann, Luke Capps, and Andrew Schroeder, to identify a research question relating to arthropod diversity on the Truman State University farm, gather field data, analyze it, and write a report."
+  },
+  {
+    "objectID": "projects/drafts/BIOL301_arthropodDiversity.html#question-and-data-collection",
+    "href": "projects/drafts/BIOL301_arthropodDiversity.html#question-and-data-collection",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "Question and data collection",
+    "text": "Question and data collection\nWe wanted to determine if proximity to hay bales had an effect on arthropod abundance and diversity. We sampled, using sweep-netting, transects along two sample plots near to and far from hay bales. We used iNaturalist to ID species."
+  },
+  {
+    "objectID": "projects/drafts/BIOL301_arthropodDiversity.html#analysis",
+    "href": "projects/drafts/BIOL301_arthropodDiversity.html#analysis",
+    "title": "The Effect of Hay Bales on Arthropod Diversity",
+    "section": "Analysis",
+    "text": "Analysis\nAnalysis conducted in Excel. We reformatted our data to conduct t-tests comparing samples and create appropriate plots. We also calculated Shannon’s diversity index, H, and the other thing, E."
+  },
+  {
+    "objectID": "projects/drafts/DATA222_apt.html",
+    "href": "projects/drafts/DATA222_apt.html",
+    "title": "Apartment Prices Across The U.S.",
+    "section": "",
+    "text": "Background info\nHello world. In this project we said hello to the world.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        File Name\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFile Name\n\n\n\nModified\n\n\n\n\n\n\n\n\napt_cleaning.pdf\n\n\n10/24/26, 3:55:42 PM\n\n\n\n\n\n\nNo matching items"
   }
 ]
